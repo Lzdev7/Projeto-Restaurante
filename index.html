@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+		integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,500;0,600;1,400;1,500&family=Francois+One&family=Ibarra+Real+Nova:ital,wght@0,400;0,500;1,400;1,500&family=Poppins:ital,wght@1,900&family=Roboto+Slab:wght@100&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&family=Sofia+Sans+Extra+Condensed:ital,wght@0,1;0,100;1,1;1,100&family=Tilt+Warp&display=swap"
+		rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;1,300&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+		integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<title>Restaurante do Luiz</title>
+</head>
+
+<body>
+	<header>
+		<div class="navabar">
+			<div class="logo">
+				<h1>Restaurante dos Dev/></h1>
+			</div>
+			<div class="options">
+				<ul>
+					<li><a href="">Massas</a></li>
+					<li><a href="">Pizzas</a></li>
+					<li><a href="">Lasnhas</a></li>
+					<li><a href="">Drinks</a></li>
+					<li><a href="">Sobre-Nós</a></li>
+					<li><a href="">Contatos</a></li>
+				</ul>
+			</div>
+			<div class="icones">
+				<i class="fa-solid fa-magnifying-glass"></i>
+				<i class="fa-regular fa-bell"></i>
+			</div>
+			<div class="login">
+				<button><i class="fa-sharp fa-solid fa-right-to-bracket"></i>Login</button>
+			</div>
+		</div>
+	</header>
+	<main>
+		<div class="age">
+			<div class="age-1">
+				<h1>O seu Pedido em até <span>50 minutos</span> minutos</h1>
+				<div class="cards">
+					<div class="c1">
+						<i class="fa-sharp fa-solid fa-clock"></i>
+						<h3>Funcionamos de 10:00 até 22:00</h3>
+						<h4>Horario de Funcionamento</h4>
+					</div>
+					<div class="c1">
+						<i class="fa-solid fa-location-dot"></i>
+						<h3>Angra dos Reis RJ</h3>
+						<h4>Avendia Bendito Adelino 6083</h4>
+					</div>
+					<div class="c1">
+						<i class="fa-solid fa-mobile"></i>
+						<h3>WPP : 24-998842442</h3>
+						<h4>Entre em Contato</h4>
+					</div>
+				</div>
+			</div>
+			<div class="age-2">
+				<img src="/assets/espaguete-com-camarao-e-tomate.jpg" alt="">
+			</div>
+		</div>
+	</main>
+	<div class="botoes">
+		<button id="cardapio">Cardapio</button>
+		<button id="restaurante">Restaurantes</button>
+	</div>
+	<div class="seacher">
+		<div class="day">
+			<h1>Menu of the day</h1>
+			<h3>Domingo, 03 de Março</h3>
+		</div>
+		<div class="input">
+			<input type="search" name="" id="" placeholder="Pizza, Massa, Drinks...">
+			<i class="fa-solid fa-magnifying-glass"></i>
+		</div>
+	</div>
+	<div class="lista-comida">
+		<div class="lista">
+			<ul>
+				<div class="pizza">
+					<li>Pizzas</li>
+					<div class="linha-lista"></div>
+				</div>
+				<div class="pizza">
+					<li>Lasanhas</li>
+					<div class="linha-lista"></div>
+				</div>
+				<div class="pizza">
+					<li>Massas</li>
+					<div class="linha-lista"></div>
+				</div>
+				<div class="pizza">
+					<li>Drinks</li>
+					<div class="linha-lista"></div>
+				</div>
+			</ul>
+		</div>
+		<div class="linha"></div>
+	</div>
+	<div class="pratos">
+		<div class="select-pratos">
+			<div class="titulopratos">
+				<h1>Escolha seu prato </h1>
+				<div class="linha-prato"></div>
+			</div>
+			<select name="Pratos" class="listaaa">
+				<option value="volvo">Pratos</option>
+				<option value="saab">Lasanha</option>
+				<option value="fiat">Pizza</option>
+				<option value="audi">Massa</option>
+			</select>
+		</div>
+	</div>
+	<div class="cardapio">
+		<div class="secao-pizza">
+			<div class="agefoto">
+			</div>
+			<div class="preco-pizza" id="mussarela">
+				<h1>Pizza de Mussarela</h1>
+				<p>Uma pizza maravilhosa de Mussarela com as melhores especiarias do mercado</p>
+				<p>R$ 29.90</p>
+				<span>+ de 2000 mil Avaliações</span>
+			</div>
+		</div>
+		<div class="secao-pizza" id="calabresa">
+			<div class="agefoto">
+			</div>
+			<div class="preco-pizza">
+				<h1>Pizza de Calabresa</h1>
+				<p>Uma pizza maravilhosa de Mussarela com as melhores especiarias do mercado</p>
+				<p>R$ 29.90</p>
+				<span>+ de 2000 mil Avaliações</span>
+			</div>
+		</div>
+		<div class="secao-pizza" id="havaiana">
+			<div class="agefoto">
+			</div>
+			<div class="preco-pizza">
+				<h1>Pizza Havaiana</h1>
+				<p>Uma pizza maravilhosa de Mussarela com as melhores especiarias do mercado</p>
+				<p>R$ 29.90</p>
+				<span>+ de 2000 mil Avaliações</span>
+			</div>
+		</div>
+		<div class="secao-pizza" id="italia">
+			<div class="agefoto">
+			</div>
+			<div class="preco-pizza">
+				<h1>Pizza italia</h1>
+				<p>Uma pizza maravilhosa de Mussarela com as melhores especiarias do mercado</p>
+				<p>R$ 29.90</p>
+				<span>+ de 2000 mil Avaliações</span>
+			</div>
+		</div>
+	</div>
+	<div class="massas">
+		<div class="secao-massa" id="espaguete">
+			<div class="agefoto">
+			</div>
+			<div class="preco-pizza">
+				<h1>Pizza de Mussarela</h1>
+				<p>Uma pizza maravilhosa de Mussarela com as melhores especiarias do mercado</p>
+				<span>+ de 2000 mil Avaliações</span>
+			</div>
+		</div>
+		<div class="secao-massa" id="espagueteitaliano">
+			<div class="agefoto">
+			</div>
+			<div class="preco-pizza">
+				<h1>Pizza de Mussarela</h1>
+				<p>Uma pizza maravilhosa de Mussarela com as melhores especiarias do mercado</p>
+				<span>+ de 2000 mil Avaliações</span>
+			</div>
+		</div>
+		<div class="secao-massa" id="espaguetecamarao">
+			<div class="agefoto">
+			</div>
+			<div class="preco-pizza">
+				<h1>Pizza de Mussarela</h1>
+				<p>Uma pizza maravilhosa de Mussarela com as melhores especiarias do mercado</p>
+				<span>+ de 2000 mil Avaliações</span>
+			</div>
+		</div>
+		<div class="secao-massa" id="espaguetepene">
+			<div class="agefoto">
+			</div>
+			<div class="preco-pizza">
+				<h1>Pizza de Mussarela</h1>
+				<p>Uma pizza maravilhosa de Mussarela com as melhores especiarias do mercado</p>
+				<span>+ de 2000 mil Avaliações</span>
+			</div>
+		</div>
+	</div>
+	<!--Seção de Drinks vai ficar oculto e so vai ser tornar visivel quando ativado apenas quando for clicad0-->
+	<div class="drinks">
+		<div class="secao-massa" id="italia">
+			<div class="agefoto">
+			</div>
+			<div class="preco-pizza">
+				<h1>Pizza de Mussarela</h1>
+				<p>Uma pizza maravilhosa de Mussarela com as melhores especiarias do mercado</p>
+				<span>+ de 2000 mil Avaliações</span>
+			</div>
+		</div>
+		<div class="secao-massa" id="italia">
+			<div class="agefoto">
+			</div>
+			<div class="preco-pizza">
+				<h1>Pizza de Mussarela</h1>
+				<p>Uma pizza maravilhosa de Mussarela com as melhores especiarias do mercado</p>
+				<span>+ de 2000 mil Avaliações</span>
+			</div>
+		</div>
+		<div class="secao-massa" id="italia">
+			<div class="agefoto">
+			</div>
+			<div class="preco-pizza">
+				<h1>Pizza de Mussarela</h1>
+				<p>Uma pizza maravilhosa de Mussarela com as melhores especiarias do mercado</p>
+				<span>+ de 2000 mil Avaliações</span>
+			</div>
+		</div>
+		<div class="secao-massa" id="italia">
+			<div class="agefoto">
+			</div>
+			<div class="preco-pizza">
+				<h1>Pizza de Mussarela</h1>
+				<p>Uma pizza maravilhosa de Mussarela com as melhores especiarias do mercado</p>
+				<span>+ de 2000 mil Avaliações</span>
+			</div>
+		</div>
+	</div>
+	<section>
+		<h1 class="title-executivo">Menu Executivo</h1>
+		<div class="executivo">
+			<img class="chef" src="/assets/chef-apresentando-algo-sobre-fundo-branco.jpg" alt="">
+			<div class="executivo-pratos">
+				<div class="macarronada">
+					<h3>Macarronada</h3>
+					<p>Uma deliciosa Macarronada com os melhores produtos do mercado, com um preço inpresindivel.</p>
+					<span>R$10.99</span>
+					<div class="linha-executivo"></div>
+				</div>
+				<div class="macarronada">
+					<h3>Macarronada</h3>
+					<p>Uma deliciosa Macarronada com os melhores produtos do mercado, com um preço inpresindivel.</p>
+					<span>R$10.99</span>
+					<div class="linha-executivo"></div>
+				</div>
+				<div class="macarronada">
+					<h3>Macarronada</h3>
+					<p>Uma deliciosa Macarronada com os melhores produtos do mercado, com um preço inpresindivel.</p>
+					<span>R$10.99</span>
+					<div class="linha-executivo"></div>
+				</div>
+				<div class="macarronada">
+					<h3>Macarronada</h3>
+					<p>Uma deliciosa Macarronada com os melhores produtos do mercado, com um preço inpresindivel.</p>
+					<span>R$10.99</span>
+					<div class="linha-executivo"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="saibamais">
+		<button id="restaurante">Saiba Mais</button>
+	</div>
+	<div class="titulodriver">
+		<h1>A entrega mais rápida da cidade.</h1>
+		<p>Engregamos até as 22:00</p>
+		<div class="linhadriver"></div>
+	</div>
+	<section>
+		<div class="driver">
+			<div class="executivo-pratos">
+				<div class="macarronada">
+					<h3>Macarronada</h3>
+					<p>Uma deliciosa Macarronada com os melhores produtos do mercado, com um preço inpresindivel.</p>
+					<span>R$10.99</span>
+					<div class="linha-executivo"></div>
+				</div>
+				<div class="macarronada">
+					<h3>Macarronada</h3>
+					<p>Uma deliciosa Macarronada com os melhores produtos do mercado, com um preço inpresindivel.</p>
+					<span>R$10.99</span>
+					<div class="linha-executivo"></div>
+				</div>
+				<div class="macarronada">
+					<h3>Macarronada</h3>
+					<p>Uma deliciosa Macarronada com os melhores produtos do mercado, com um preço inpresindivel.</p>
+					<span>R$10.99</span>
+					<div class="linha-executivo"></div>
+				</div>
+				<div class="macarronada">
+					<h3>Macarronada</h3>
+					<p>Uma deliciosa Macarronada com os melhores produtos do mercado, com um preço inpresindivel.</p>
+					<span>R$10.99</span>
+					<div class="linha-executivo"></div>
+				</div>
+			</div>
+			<div class="entregador">
+				<img src="/assets/entregador-de-comida-com-caixas-de-comida-removebg-preview.png" alt="">
+			</div>
+		</div>
+	</section>
+	<div class="saibamais">
+		<button id="restaurante">Saiba Mais</button>
+	</div>
+	<div class="linhafinal"></div>
+	<div class="agecoments">
+		<div class="comentarios">
+			<div class="coment1">
+				<div class="nomepessoa">
+					<h3>@hugoraajss</h3>
+					<span>15 de abril de 2020</span>
+				</div>
+				<div class="estrelas">
+					<ul>
+						<li><i class="fa-solid fa-star"></i></li>
+						<li><i class="fa-solid fa-star"></i></li>
+						<li><i class="fa-solid fa-star"></i></li>
+						<li><i class="fa-solid fa-star"></i></li>
+						<li><i class="fa-solid fa-star"></i></li>
+					</ul>
+				</div>
+				<div class="feedback">
+					<p>
+						Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model
+						text, and a search for 'lorem ipsum'..
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="comentarios">
+			<div class="coment1">
+				<div class="nomepessoa">
+					<h3>@hugoraajss</h3>
+					<span>15 de abril de 2020</span>
+				</div>
+				<div class="estrelas">
+					<ul>
+						<li><i class="fa-solid fa-star"></i></li>
+						<li><i class="fa-solid fa-star"></i></li>
+						<li><i class="fa-solid fa-star"></i></li>
+						<li><i class="fa-solid fa-star"></i></li>
+						<li><i class="fa-solid fa-star"></i></li>
+					</ul>
+				</div>
+				<div class="feedback">
+					<p>
+						Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model
+						text, and a search for 'lorem ipsum'..
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="comentarios">
+			<div class="coment1">
+				<div class="nomepessoa">
+					<h3>@hugoraajss</h3>
+					<span>15 de abril de 2020</span>
+				</div>
+				<div class="estrelas">
+					<ul>
+						<li><i class="fa-solid fa-star"></i></li>
+						<li><i class="fa-solid fa-star"></i></li>
+						<li><i class="fa-solid fa-star"></i></li>
+						<li><i class="fa-solid fa-star"></i></li>
+						<li><i class="fa-solid fa-star"></i></li>
+					</ul>
+				</div>
+				<div class="feedback">
+					<p>
+						Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model
+						text, and a search for 'lorem ipsum'..
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="comentarios">
+			<div class="coment1">
+				<div class="nomepessoa">
+					<h3>@hugoraajss</h3>
+					<span>15 de abril de 2020</span>
+				</div>
+				<div class="estrelas">
+					<ul>
+						<li><i class="fa-solid fa-star"></i></li>
+						<li><i class="fa-solid fa-star"></i></li>
+						<li><i class="fa-solid fa-star"></i></li>
+						<li><i class="fa-solid fa-star"></i></li>
+						<li><i class="fa-solid fa-star"></i></li>
+					</ul>
+				</div>
+				<div class="feedback">
+					<p>
+						Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model
+						text, and a search for 'lorem ipsum'..
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="fotos">
+		<img src="/assets/profile-1.jpg" alt="">
+	</div>
+	<div class="fotos" id="foto2">
+		<img src="/assets/profile-1.jpg" alt="">
+	</div>
+	<div class="fotos" id="foto3">
+		<img src="/assets/profile-1.jpg" alt="">
+	</div>
+	<div class="fotos" id="foto4">
+		<img src="/assets/profile-1.jpg" alt="">
+	</div>
+	
+	<div class="title-contatos">
+		<h1>Contato</h1>
+		<div class="linhacontato"></div>
+	</div>
+	<div class="contatos">
+		<div class="wpp">
+			<i class="fa-brands fa-whatsapp"></i>
+			<h3>24 99884-2442</h3>
+		</div>
+		<div class="wpp">
+			<i class="fa-solid fa-envelope"></i>
+			<h3>24 99884-2442</h3>
+		</div>
+		<div class="wpp">
+			<i class="fa-brands fa-instagram"></i>
+			<h3>24 99884-2442</h3>
+		</div>
+	</div>
+</body>
+
+</html>
